@@ -36,6 +36,7 @@ btnClick = () => {
 3. Enter decompress directory
 4. Run
 ```bash
+$ yarn install
 $ yarn start
 ```
 
