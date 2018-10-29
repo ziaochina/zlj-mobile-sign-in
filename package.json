@@ -1,0 +1,33 @@
+{
+  "isMakaApp": true,
+  "name": "zlj-mobile-sign-in",
+  "description": "zlj-mobile-sign-in application, a simple example of mobile login.",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": "ziaochina",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziaochina/zlj-mobile-sign-in.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ziaochina/zlj-mobile-sign-in/issues"
+  },
+  "homepage": "https://github.com/ziaochina/zlj-mobile-sign-in#readme",
+  "scripts": {
+    "start": "maka start",
+    "dev": "maka start --dev",
+    "build": "maka build",
+    "pkg": "maka pkg"
+  },
+  "dependencies": {
+    "zlj-mobile-antd": "https://hub.makajs.org/zlj-mobile-antd/-/@1.0.0"
+  },
+  "devDependencies": {
+    "md5": "*"
+  },
+  "server": {
+    "proxy": null,
+    "port": 8000
+  },
+  "subAppDir": "./apps"
+}
